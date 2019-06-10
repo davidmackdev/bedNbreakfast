@@ -1,0 +1,36 @@
+/* Stylesheet for Bootstrap BNB project Ch.5
+	Name: David
+	Date: 05/30/19
+	filename:styles.css
+*/
+
+.nav li {
+	display: inline;
+}
+
+.nav a {
+	font-size: 24px;
+	font-weight: bold;
+	padding: 50px;
+	color: black;
+	transition: color 0.7s;
+}
+
+.nav a:hover {
+	color: lightslategrey;
+	text-decoration: none;
+}
+
+.nav {
+	padding-top: 10px;
+}
+
+.jumbotron {
+	background-image: url('hero.jpg');
+	background-size: cover;
+	height: 690px;
+}
+
+.jumbotron .container {
+	font-family: 'Merriweather', serif;
+}
